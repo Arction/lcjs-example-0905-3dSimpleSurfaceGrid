@@ -146,7 +146,7 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[3D chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/chart3d.html
-[3D surface grid series]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/surfacegridseries3d.html
-[Grid range options]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/interfaces/gridrangeoptions.html
+[3D chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/chart3d.html
+[3D surface grid series]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/surfacegridseries3d.html
+[Grid range options]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/interfaces/gridrangeoptions.html
 

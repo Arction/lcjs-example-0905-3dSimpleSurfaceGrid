@@ -187,3 +187,9 @@ const handleCameraAnimationToggled = ( state ) => {
 const cameraAnimationEnabledCheckbox = group.addElement( UIElementBuilders.CheckBox )
 cameraAnimationEnabledCheckbox.onSwitch((_, state) => handleCameraAnimationToggled( state ))
 handleCameraAnimationToggled( true )
+chart3D.onBackgroundMouseDrag(() => {
+    handleCameraAnimationToggled( false )
+})
+
+// Add LegendBox to chart.
+const legend = chart3D.addLegendBox().add(chart3D)
