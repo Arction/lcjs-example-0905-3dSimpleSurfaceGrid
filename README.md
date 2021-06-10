@@ -1,6 +1,6 @@
-# 3D Simple Surface Grid
+# JavaScript 3D Simple Surface Grid
 
-![3D Simple Surface Grid](3dSimpleSurfaceGrid.png)
+![JavaScript 3D Simple Surface Grid](3dSimpleSurfaceGrid.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
