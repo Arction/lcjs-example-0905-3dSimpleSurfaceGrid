@@ -24,7 +24,7 @@ const {
 
 
 const chart3D = lightningChart().Chart3D( {
-    // theme: Themes.dark
+    // theme: Themes.darkGold
 } )
     .setTitle( 'Simple 3D Surface Grid' )
 
@@ -116,6 +116,11 @@ group
     .setOrigin( UIOrigins.LeftTop )
     .setMargin( 10 )
     .setPadding( 4 )
+    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
+    .setAutoDispose({
+        type: 'max-height',
+        maxHeight: 0.30,
+    })
 
 
 // Add UI controls for changing surface style.
@@ -192,4 +197,10 @@ chart3D.onBackgroundMouseDrag(() => {
 })
 
 // Add LegendBox to chart.
-const legend = chart3D.addLegendBox().add(chart3D)
+const legend = chart3D.addLegendBox()
+    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
+    .setAutoDispose({
+        type: 'max-width',
+        maxWidth: 0.30,
+    })
+    .add(chart3D)
